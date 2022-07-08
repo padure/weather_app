@@ -5,7 +5,7 @@ For instalation use this speps:
 4. php artisan migrate
 5. php artisan db:seed
 6. npm install && npm run dev
-
+For to get hourly weather info use: php artisan schedule:work
 For Admin login use:<br />
 admin@test.com and <br />
 12345678
