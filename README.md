@@ -4,7 +4,5 @@ For instalation use this speps:
 3. Copy .env.example to .env
 4. php artisan migrate
 5. php artisan db:seed
-6. composer require laravel/ui
-7. php artisan ui bootstrap
-8. npm install && npm run dev
+6. npm install && npm run dev
 For Admin login use admin@test.com and 12345678
