@@ -1,3 +1,9 @@
-Есть сервис который берет данные погоды с https://openweathermap.org/api/one-call-3#history   и записывает в базу . Пишет согласно планировшика .  Планировшик снимает данные раз в час .  
-Также в системе есть простые пользователи и администратор . Администратор  может менять параметры для Api  а вот пользователь может  у себя менять один параметр который отвечает когда будет приходить письмо на почту ( или вобщше отключить).
-На главной странице показывается данные погоды которые были сняты последние  .
+For instalation use this speps:
+1. Clone this repository
+2. Composer install
+3. Copy .env.example to .env
+4. php artisan migrate
+5. php artisan db:seed
+6. composer require laravel/ui
+7. php artisan ui bootstrap
+8. npm install && npm run dev
