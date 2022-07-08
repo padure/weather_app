@@ -5,4 +5,7 @@ For instalation use this speps:
 4. php artisan migrate
 5. php artisan db:seed
 6. npm install && npm run dev
-For Admin login use admin@test.com and 12345678
+
+For Admin login use:<br />
+admin@test.com and <br />
+12345678
