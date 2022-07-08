@@ -53,4 +53,9 @@ class User extends Authenticatable
             get: fn ($value) =>  ["user", "admin"][$value],
         );
     }
+
+    public function frequency()
+    {
+        return $this->hasOne(Frequency::class);
+    }
 }

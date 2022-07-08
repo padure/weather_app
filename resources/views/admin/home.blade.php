@@ -8,7 +8,7 @@
                     <div class="card-header">{{ __('Dashboard') }}</div>
 
                     <div class="card-body">
-                        You are a Admin User.
+                        <a href="{{ route('admin.key.index') }}" class="btn btn-dark btn-sm">Add Key</a>
                     </div>
                 </div>
             </div>

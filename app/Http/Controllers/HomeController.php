@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Stevebauman\Location\Facades\Location;
 
 class HomeController extends Controller
 {
